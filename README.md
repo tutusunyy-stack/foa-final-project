@@ -60,11 +60,10 @@ foa-final-project/
 ### **1. Clone the repository**
 
 ```bash
-git clone <THIS_REPO_URL>
+git clone https://github.com/tutusunyy-stack/foa-final-project.git
 cd foa-final-project
 ```
 
-> ⚠️ IMPORTANT: Replace `<THIS_REPO_URL>` with the actual GitHub link.
 
 ---
 
@@ -89,7 +88,7 @@ pip install -r requirements.txt
 ### **4. Run the notebook**
 
 ```bash
-jupyter notebook notebooks/final.ipynb
+jupyter notebook final/notebooks/final.ipynb
 ```
 
 Ensure the **data folder structure stays the same**, otherwise the notebook will not find the datasets.
